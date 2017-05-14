@@ -98,6 +98,8 @@
             h3 {
                 @include latoBold();
                 color: #fff;
+                background: rgba(0, 0, 0, .6);
+                padding: 10px;
                 text-transform: capitalize;
                 letter-spacing: rem(3px);
                 font-size: rem(33px);
@@ -120,6 +122,8 @@
             p {
                 @include latoLight();
                 color: #fff;
+                background: rgba(0, 0, 0, .6);
+                padding: 5px;
                 width: 80%;
                 font-size: rem(16px);
                 line-height: rem(18px);
