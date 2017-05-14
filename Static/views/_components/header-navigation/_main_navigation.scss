@@ -220,13 +220,13 @@
                 }
 
                 @include respond-to-min($desktopSize) {
-                    padding: rem(20px 15px);
+                    padding: rem(20px 14px);
                     font-size: rem(12px);
                     line-height: rem(12px);
                 }
 
                 @include respond-to-min($laptopSize) {
-                    padding: rem(20px 30px);
+                    padding: rem(20px 25px);
                     font-size: rem(14px);
                     line-height: rem(14px);
                 }
