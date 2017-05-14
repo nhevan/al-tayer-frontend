@@ -7,7 +7,8 @@ npm install grunt-cli -g
 npm install bower -g
 npm install
 bower install
-grunt install
+grunt install --force
+grunt
 ```
 # Build files and watch for changes 
 
@@ -15,9 +16,14 @@ grunt install
 grunt
 ```
 
+# create a .env file
+```sh
+create the .env file on the root directory and add one line to it : "WEB_SERVER_PORT=9001"
+```
+
 # Run local dev server
 ```sh
-npm run-script dev-server
+npm run dev-server
 ```
 # Access local dev server
 
