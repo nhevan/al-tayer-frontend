@@ -1,0 +1,91 @@
+.brand-maserati-container {
+    .overview-content-block {
+        .thumbnail {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            //@include latoBold();
+            font-family: FrutigerNeueLTPro-Regular;
+            font-weight: normal;
+            font-style: normal;
+            font-size: rem(20px);
+            line-height: 1;
+            display: block;
+            margin: rem(0 0 10px);
+            text-transform: uppercase;
+            text-align: center;
+            color: #262626;
+            letter-spacing: rem(1px);
+
+            @include respond-to-min($tabletSize) {
+                font-size: rem(18px);
+            }
+
+            @include respond-to-min($largeSize) {
+                font-size: rem(20px);
+            }
+
+            &:nth-child(2) {
+                font-size: rem(14px);
+                color: $grayText;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+
+    .brand-tabs-contents.tab-contents {
+        .text-contents-row {
+            p {
+                font-family: FrutigerNeueLTPro-Light;
+                font-weight: normal;
+                font-style: normal;
+            }
+        }
+    }
+
+    .brand-model {
+        .brand-model__item {
+            &__text-container {
+                h3 {
+                    font-family: FrutigerNeueLTPro-Regular;
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                p {
+                    font-family: FrutigerNeueLTPro-Light;
+                    font-weight: normal;
+                    font-style: normal;
+                }
+            }
+
+            &__price {
+                span {
+                    font-family: FrutigerNeueLTPro-Light;
+                    font-weight: normal;
+                    font-style: normal;
+
+                    &.price {
+                        font-family: FrutigerNeueLTPro-Regular;
+                        font-weight: normal;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    .brand-tab__container_model_brochure {
+        .brand-model__item {
+            .brand-model__item__text-container {
+                h3, a.download-brochure {
+                    font-family: FrutigerNeueLTPro-Regular;
+                    font-weight: normal;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
