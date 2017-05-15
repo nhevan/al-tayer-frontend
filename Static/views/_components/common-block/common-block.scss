@@ -218,8 +218,8 @@
         .img-background-contents {
             p {
                 width: auto;
-                background: rgba(0,0,0,0.6);
-                padding: 10px;               
+                background:rgba(0,0,0,0.6);
+                padding:10px;               
                 @include latoNormal();
                 font-size: rem(25px);
                 line-height: rem(30px);
